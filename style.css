@@ -1,0 +1,115 @@
+body {
+    background: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h3 {
+    font-weight: bold;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #222;
+}
+
+span {
+    color: #2886eb;
+}
+
+nav {
+    display: flex;
+    /* width: 604px; */
+    height: 16px;
+    gap: 55px;
+}
+
+nav a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #222;
+    text-decoration: none;
+}
+
+section {
+    padding-top: 100px;
+}
+
+
+.course {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 32px;
+    /* width: 202px;
+    height: 36px; */
+    background: #2886eb;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.roblox {
+    display: flex;
+    width: 1200px;
+    height: 535px;
+    gap: 35px;
+}
+
+.roblox h2 {
+    width: 752px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 100%;
+    color: #222;
+}
+
+.roblox a {
+    border: 1.50px solid #2886eb;
+    border-radius: 10px;
+    padding: 10px 32px;
+    width: 169px;
+    height: 36px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #2886eb;
+    text-decoration: none;
+}
+
+.roblox p {
+    width: 752px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    color: #767676;
+}
+
+.roblox img {
+    width: 506px;
+    height: 535px;
+}
+
+.content {
+
+}
+/* box-model */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "SF Pro Display", sans-serif;
+    }
